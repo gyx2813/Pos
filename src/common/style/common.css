@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;}
+body,html{
+  font-family: '微软雅黑';
+  font-size: 14px;
+}
+.shop{font-size:24px;padding:20px 0 10px 0;color: orangered;}

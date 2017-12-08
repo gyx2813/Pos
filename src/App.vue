@@ -2,7 +2,9 @@
   <div id="app">
     <leftNav></leftNav>
     <div class="main">
-      <router-view></router-view>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
     </div>
   </div>
 </template>
@@ -18,6 +20,7 @@
 </script>
 
 <style>
+  @import "common/style/common.css";
 #app {
   font-family:'微软雅黑';
   -webkit-font-smoothing: antialiased;
@@ -31,6 +34,5 @@
   background-color: #EFF2F7;
   height:100%;
   overflow: auto;
-
 }
 </style>

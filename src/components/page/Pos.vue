@@ -187,13 +187,13 @@
   }
 </script>
 <style>
+.tab{padding:0 0 0 10px;}
 .pos-order{
   background: #f9fafc;
   border:1px solid #c0ccda;
 }
 .btn-box{margin: 10px auto 0;}
 .title{
-  height: 20px;
   border-bottom:1px solid #D3DCE6;
   background-color: #F9FAFC;
   padding:10px;
